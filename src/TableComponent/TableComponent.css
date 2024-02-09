@@ -1,0 +1,16 @@
+.Base-tableComponent {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Base-tableComponent th, .Base-tableComponent td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.Base-tableComponent th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  text-decoration: underline;
+}
