@@ -12,6 +12,16 @@ To run the project Excecute below command from root:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Sorting will be applied when user clicks on Table header of that particular column.
+Screen with Asset_class sorting Equities, Macro and Credit.
+![image](https://github.com/mehekmaley/financial-instruments/assets/31430427/a1877e32-b1df-47e8-8288-04b6e9d15d17)
+
+Screen with descending price sorting.
+![image](https://github.com/mehekmaley/financial-instruments/assets/31430427/60365c92-eaec-4fe6-82a7-eff183791e01)
+
+Screen with alphabetic sorting of Ticker, also negative price value is coloured RED.
+![image](https://github.com/mehekmaley/financial-instruments/assets/31430427/7cdff174-6883-4126-ade2-fc1da250f60a)
+
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
