@@ -53,7 +53,7 @@ const TableComponent: React.FC = () => {
                     </thead>
                     <tbody>
                     {data.map((instrument) => (
-                        <tr key={instrument.ticker} style={{ background: getColor(instrument.assetClass) }}>
+                        <tr key={instrument.ticker+'_'+`${index}`} style={{ background: getColor(instrument.assetClass) }}>
                             <td>{instrument.assetClass}</td>
                             <td style={{ color: getPriceColor(instrument.price)}}>{instrument.price}</td>
                             <td>{instrument.ticker}</td>
